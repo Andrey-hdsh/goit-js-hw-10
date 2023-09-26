@@ -1,0 +1,74 @@
+.body {
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+display: block;
+}
+
+.breed-select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #7c7676;
+  border-radius: 5px;
+}
+
+.breed-select-text  {
+font-style: italic;
+margin-top: 10px;
+}
+
+.loader {
+font-style: italic; 
+margin-top: 10px;
+font-weight: bold;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cat-card {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+
+  display: flex;
+  align-items: flex-start; 
+}
+
+.image-cat {
+  max-width: 100%;
+  height: auto;
+  margin-right: 20px;
+}
+
+
+.cat-card h1 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.cat-card p {
+  font-size: 16px;
+}
+
+.cat-card span {
+  font-weight: bold;
+}
+
